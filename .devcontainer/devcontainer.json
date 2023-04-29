@@ -9,12 +9,17 @@
   },
   "customizations": {
     "vscode": {
+      "settings": {
+        "telemetry.enableTelemetry": false,
+        "telemetry.telemetryLevel": "off"
+      },
       "extensions": [
         "eamodio.gitlens",
         "PKief.material-icon-theme",
         "enkia.tokyo-night",
         "HashiCorp.terraform",
-        "terrastruct.d2"
+        "terrastruct.d2",
+        "usernamehw.errorlens"
       ]
     }
   }
