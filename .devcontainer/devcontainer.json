@@ -1,0 +1,21 @@
+{
+  "name": "aws-terraform-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/terraform:1": {},
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/RightWayCC/packer-feature/packer:0": {},
+    "ghcr.io/ksh5022/devcontainer-features/d2:1":{}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "PKief.material-icon-theme",
+        "enkia.tokyo-night",
+        "HashiCorp.terraform",
+        "terrastruct.d2"
+      ]
+    }
+  }
+}
